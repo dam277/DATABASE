@@ -1,2 +1,3 @@
-# Ignore all projects
+# Ignore all projects and courses
 Database/www/projects/*
+Database/www/courses/*

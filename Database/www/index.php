@@ -10,9 +10,6 @@ fclose ($fp);
 echo base64_encode($data);
 exit;
 */
-
-
-
 if (isset($_REQUEST['getimg']))
 {
 	$IMAGE_FAVICON="AAABAAIAEBAAAAAAIABoBAAAJgAAACAgAAAAACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAAEAEAAAAAAAAAAAAAAAAAAAAAAAAdSspP75FQr+/REHFu0NAxbhBPsW0PjzFsTw6xa06OMWqODbFpjY0xaM0MsWfMjDFnDAuxZguLMWPKyi7ShYUL71EQcfxVlL/7VxZ/+pgXf/mXlv/4ltX/9tKRv/WR0T/0kVB/85DP//NTkv/yk5L/8JBPv+8ODX/tzUy/4YmJK29Q0DP61NP/+txbv/ysrD/8LGv/++wrv/nlZP/3Xd1/96CgP/koJ//5aqp/92WlP+7Ozf/tjUx/7IyL/+FJSK3uEE+z+VQTP/hT0z/88TD//zz8//88/P//PPz//vz8v/78vL/+/Ly//LY2P/CUlD/tDQx/7AxLv+sLyz/gSIgt7Q+O8/fTEn/20pG/9dKRv/ggoD/6q+u//HPzv/wzs3/5Kyq/9N+fP+6PDn/szMw/68wLf+qLiv/piso/3wgHbevOzjP2UlF/9VGQ//XXlv/78TD//35+f////////////35+f/qxcT/w19d/60wLf+pLSr/pCso/6AoJf94HRu3qjk2z9NFQv/TU1D/+u3s//////////////////////////////////37+//HeXf/oyon/58nJP+aJSL/cxoYt6Y2M8/OQj//45qY/////////////v39/9B9e/+3Pjv/vFJQ/9ifnv/+/Pz//Pj4/6xHRf+ZJCH/lCEf/28YFrehMzHPyD87/+q6uf///////////+3Ozf+yMi//rTAt/6ktKv+lKyj/yoeG///////YrKv/kyAe/48eG/9qFRO3nDEuz8I7OP/mtLP////////////itLP/rC8s/6csKf+jKif/nyck/5woJv/06en/+fPz/5AiH/+JGxj/ZhMRt5guK8+8ODX/2pWU////////////5cHA/6YrKf+iKSb/nSYk/5kkIf+UIR//2LCv//////+fSEb/gxcV/2EQDreTKynPtjUy/8dpZ/////////////Tm5v+gKCX/nCYj/5cjIP+TIR7/jx4b/8aQjv//////rmlo/30UEf9dDgy3jykmz7AxLv+wODX//Pn5///////+/v7/qkdE/5YiH/+SIB3/jR0b/4kbGP+9gYD//////7Z9fP93EQ7/WQsJt4omJM+rLiv/pisp/+TBwP///////////8mQj/+QHxz/jBwa/4caF/+DFxX/vIWD//////+5hoX/cQ0L/1QIB7eEIyHJpSso/6AoJf+6Z2X////////////06un/jyUi/4YZFv+CFhT/fRQS/8uiof//////s4B+/2wKCP9OBgSxVBUUS38gHdF+HhzXehwa15BPTteSVlTXj1RT13MhH9doEhDXZRAO12EODNdxLCvXgEpJ12UgHtdRBgTNLQIBOQAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8oAAAAIAAAAEAAAAABACAAAAAAAIAQAAAAAAAAAAAAAAAAAAAAAAAA////AQAAABE4FBNxZSQji2QkIotjIyKLYiMhi2EiIYtgIiCLXyEgi14hH4teIB+LXSAei1wfHotbHx2LWh4di1keHItYHRyLVx0bi1YcG4tVHBqLVRsai1QaGYtTGhmLUhkYi1EZGItQGBeLTxgXi0wXFokeCQhhAAAABf///wEAAAATiDEv2fJYVP/0WFT/8ldT/+9WUv/tVVH/61NQ/+lSTv/nUU3/5E9M/+JOSv/gTUn/3ktI/9xKR//ZSUX/10hE/9VGQ//TRUL/0URA/85DP//MQj7/ykA9/8g/PP/GPjv/wzw5/8E7OP+/Ojf/vTk1/7E0Mf9NFhW1AAAAA0caGX/zWFT/81hU//FWU//vV1P/7VlV/+tXVP/pVlP/51VR/+RUUP/iU0//4E9M/91LR//bSkb/2UlF/9ZHRP/URkP/0kVB/9BDQP/OQj//zEI+/8tFQv/JREH/x0M//8RBPv/BOzj/vjk2/7w4Nf+6NzT/uDYy/6YwLf8JAgJJcCgnn/JXU//wVlL/7lVR/+xXVP/tbGj/62pn/+lpZv/naGX/5Wdk/+NmY//hY2D/2ktH/9hIRf/WR0P/1EZC/9FEQf/PQ0D/zUI+/8xEQf/PV1T/z1pX/81ZVv/LWFX/xk5L/745Nv+7ODX/uTYz/7c1Mv+1NDH/szMw/yYKCm1vJyaf71ZS/+1UUf/rU0//6VJP/++Rjv/vl5X/7paU/+2Vk//rlZP/6pSS/+mTkf/jfXv/1kpH/9NFQv/RRED/zkM//85IRf/VZ2X/3YiG/92Miv/cjIr/2ouJ/9mJh//BRkP/uzc0/7g2M/+2NTL/tDQw/7IyL/+wMS7/JgoKb20nJZ/tVFD/6lNP/+hRTv/mUEz/7pGP//bNzP/2zcz/9c3M//XMy//0zMv/88zL//PLyv/ww8H/6qqo/+mqqP/rtrX/78jH/+/JyP/vycj/7sjH/+3Ix//tyMf/03x6/7o3NP+4NjL/tjQx/7MzMP+xMi//rzEu/60vLP8mCglvbCYkn+pST//nUU3/5VBM/+NOS//iV1P/+Nra//zw7//78O//+/Dv//vv7//77+//++/v//vv7//77+//+u/v//rv7//67+//+u/u//rv7v/57+7/+e7u/+Cmpf+6ODX/tzUy/7U0Mf+zMzD/sDEu/64wLf+sLyz/qi4r/yUKCW9rJSSf51FN/+RPTP/iTkr/4E1J/95MSP/hZWL/+OHg//339v/99/b//fb2//z29v/89vb//Pb2//z29v/89vb//Pb2//z29v/89vb//Pb2//ry8v/ZkpH/uTc0/7Y1Mv+0NDD/sjIv/7AxLv+uMC3/qy4r/6ktKv+nLCn/JAkJb2kkI5/kT0v/4k5K/99MSf/dS0j/20pG/9lJRf/ZUU7/6aCe//bb2v/34uL/9+Lh//fi4f/24uH/9uHh//bh4f/14eH/9eHg//Pb2//hp6X/w1NQ/7g2M/+2NDH/szMw/7EyL/+vMS7/rS8s/6suK/+oLSr/piwp/6QqJ/8kCQhvaCQin+FNSv/fTEj/3EtH/9pJRv/YSEX/1kdD/9RGQv/RREH/0UhF/9doZf/hkY//6rW0/+3Ew//tw8L/57Kx/9qMiv/LYV//vj88/7k2M/+3NTL/tTQx/7MzMP+xMS7/rjAt/6wvLP+qLiv/qCwp/6YrKP+jKif/oSkm/yMICG9nIyGf3kxI/9xKR//aSUX/10hE/9VGQ//TRUL/0URB/9djYP/rsrD/+erq//7+/v///////////////////////v7+//jq6v/ks7H/yGVj/7Q0Mf+yMi//sDEu/64wLf+rLiz/qS0q/6csKf+lKyj/oykn/6AoJf+eJyT/IggIb2UiIZ/bSkb/2UlF/9dHRP/URkP/0kVB/9FGQ//oqKb//vz8///////////////////////////////////////////////////////+/v7/6snI/7pOS/+tLyz/qy4r/6gtKv+mLCn/pCon/6IpJv+gKCX/nSck/5slIv8iCAdvZCEgn9hIRf/WR0P/1EZC/9FEQf/PQ0D/7Li2////////////////////////////////////////////////////////////////////////////+vLy/8BlY/+oLCn/piso/6MqJ/+hKSb/nycl/50mI/+bJSL/mCQh/yEHB29jIR+f1UdD/9NFQv/RREH/z0M//92Afv/+/v7/////////////////////////////////////////////////////////////////////////////////+/f3/7laV/+jKSf/oCgl/54nJP+cJiP/miQi/5gjIP+VIh//IAcGb2EgHp/SRUH/0ERA/85CP//MQT7/9NjX//////////////////////////////////jr6//RfXv/vUpI/7xKR//CX13/0ouK/+7W1f/+/v7/////////////////9Obm/6U0Mf+eJyT/myUj/5kkIf+XIyD/lSEf/5MgHv8gBwZvYB8dn89DQP/NQj//y0E9/85ST//+/v7////////////////////////////9+vr/xFpX/7U0Mf+zMzD/sTEu/64wLf+sLyz/qi4r/8h6eP/79vb/////////////////0p2c/5slIv+YJCH/liIg/5QhHv+SIB3/kB8c/x8GBm9fHh2fzEE+/8pAPf/IPzz/1XBt/////////////////////////////////+W4t/+0NDH/sjIv/7AxLv+uMC3/qy8s/6ktKv+nLCn/pSso/7thX//9+/v////////////79vb/oDUz/5YiH/+TIR7/kR8d/48eHP+NHRr/HwYFb10dHJ/KQDz/xz87/8U9Ov/We3n/////////////////////////////////0IKA/7EyL/+vMS7/rS8s/6suK/+pLSr/piwp/6QqJ/+iKSb/oCgl/9GZmP/////////////////FhoX/kyAe/5AfHP+OHhv/jBwa/4obGf8eBQVvXB0bn8c+O//EPTr/wjw4/9N0cv/////////////////////////////////Ga2j/rjAt/6wvLP+qLiv/qCwq/6YrKP+jKif/oSkm/58nJf+dJiP/oTMx//r19f///////////+jR0P+QHxz/jh0b/4scGf+JGxj/hxoX/x0FBW9aHBqfxDw5/8E7OP+/Ojf/yl9c/////////////////////////////////8RpZ/+sLyz/qS0q/6csKf+lKyj/oyon/6EoJf+eJyT/nCYj/5okIv+YIyD/2rKy/////////////v39/5YwLv+LHBn/iBoY/4YZF/+EGBX/HQUEb1kbGp/BOzj/vzo2/7w4Nf++QT7//v39////////////////////////////x3Z0/6ktKv+mLCn/pCoo/6IpJv+gKCX/nick/5slI/+ZJCH/lyMg/5UiH/+9d3X/////////////////rmJg/4gaF/+FGRb/gxcV/4EWFP8cBARvWBoZn745Nv+8ODX/uTcz/7c1Mv/04uL////////////////////////////RkI7/piso/6MqJ/+hKSb/nycl/50mI/+bJSL/mSQh/5YiIP+UIR7/kiAd/6ZLSf/////////////////DjIv/hRgW/4MXFf+AFhP/fhQS/xsEBG9XGhifuzc0/7k2M/+3NTL/tDQx/+S4t////////////////////////////+C2tf+jKif/oSgl/54nJP+cJiP/miQi/5gjIf+WIh//kyEe/5EfHf+PHhz/lCwp//7+/v///////////9Svrv+CFxT/gBUT/30UEv97ExD/GwQDb1UZF5+4NjP/tjQx/7QzMP+xMi//0YiG////////////////////////////9Obl/6AoJf+eJyT/myUj/5kkIf+XIyD/lSIf/5MgHv+QHxz/jh4b/4wcGv+LHRr/+/f3////////////48vK/38VE/99FBH/exIQ/3gRD/8aAwNvVBgXn7U0Mf+zMzD/sTIv/68wLf+7U1D//v7+///////////////////////+/v7/rElG/5slIv+ZJCH/liIg/5QhHv+SIB3/kB8c/44dG/+LHBr/iRsY/4caF//17ez////////////u4OD/fBMR/3oSEP94EQ7/dQ8N/xkDAm9SFxafsjIv/7AxLv+uMC3/rC8s/6ouK//16Oj////////////////////////////Iioj/mCMh/5YiH/+TIR7/kR8d/48eHP+NHRr/ixwZ/4gaGP+GGRf/hBgV//Ln5/////////////bw8P95Eg//dxAO/3UPDf9zDgz/GQMCb1EXFZ+vMS7/rS8s/6suK/+pLSr/piwp/9qpqP///////////////////////////+vU1P+VIh//kyAe/5EfHP+OHhv/jB0a/4obGf+IGhf/hhkW/4MXFf+BFhT/9Orq////////////+/n5/3cRD/90Dwz/cg0L/3AMCv8YAgJvUBYUn6wvLP+qLiv/qC0q/6YrKP+kKif/uV9d/////////////////////////////v7+/6hMSv+QHxz/jh0b/4scGv+JGxj/hxoX/4UYFv+DFxX/gBYT/4AYFv/8+fn////////////+/v7/dBAO/3ENC/9vDAn/bQoI/xcCAW9PFRSfqS0q/6csKf+lKyj/oyon/6EoJf+fKSb/8N/e////////////////////////////166t/40dGv+LHBn/iRoY/4YZF/+EGBX/ghcU/4AVE/9+FBL/jTMx//////////////////39/f9xDgz/bgsJ/2wKCP9qCQf/FwEBbzoPDommLCn/pCoo/6IpJv+gKCX/nick/5wlI/+9cW/////////////////////////////9+/v/nUA+/4gaF/+GGRb/gxgV/4EWFP9/FRP/fRQR/3sSEP+hWVf/////////////////8eno/24LCf9rCgf/aQgG/2IHBf8IAABVAAAAIWsbGuuhKSb/nygl/50mI/+bJSL/mSQh/5YjIP+5bm3/xIeG/8OGhf/ChoT/wIWE/7+Eg/+eR0X/hRgW/4MXFf+BFhP/fhUS/3wTEf96EhD/eBEO/4EkIv+naGb/rnZ1/7F8ev+eXVv/awkH/2gIBv9lBwX/MwMCzQAAAAn///8BAgAAIz8PDpdUFBOvUxQSr1ETEa9QEhGvTxIQr04RD69NEA+vTBAOr0oPDq9JDg2vSA4Mr0cNDK9GDAuvRQwKr0MLCa9CCgmvQQkIr0AJCK8/CAevPgcGrzwHBq87BgWvOgUErzkFBK84BAOvNgMCrx8BAYUAAAAR////AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
@@ -104,34 +101,7 @@ hr
 <li>Apache version : <?php echo $_SERVER['SERVER_SOFTWARE']; ?></li>
 <li><a href="/mysql/">PHPMyAdmin</a></li>
 <li><a href="/uwamp/phpinfo.php">PHP Info</a></li>
-<br><br><hr>
-
-<h2>Alias</h2>
-<?php
-$apacheconffile=$UWAMPFOLDER."bin/apache/conf/httpd.conf";
-if (!file_exists ( $apacheconffile ))
-{
-	echo "Can't find Apache config file (httpd.conf)";
-}
-else
-{
-	$fp = fopen($apacheconffile,'r');
-	$data = fread ($fp, filesize ($apacheconffile));
-	fclose ($fp);	
-	preg_match_all("/Alias[\\t ]*\"([^\"\']+)\"[\\t ]\"([^\"\']+)\"/i",$data,$matches,PREG_SET_ORDER);	
-	$lists = array();
-	foreach ($matches as $val)
-	{
-		if (!in_array($val, $lists))
-		{
-			$lists[] = $val;
-			echo "<li><a class=\"afolder\" href=\"$val[1]\">$val[1]</a></li>";
-		}	
-	}
-}
-
-?>
-
+<hr>
 <h2>Virtual Host</h2>
 <?php
 $handle=opendir($UWAMPFOLDER."www");

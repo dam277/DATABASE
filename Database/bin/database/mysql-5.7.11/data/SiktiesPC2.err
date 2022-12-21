@@ -1,0 +1,826 @@
+2022-12-17T21:09:21.049057Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-12-17T21:09:21.049057Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-12-17T21:09:21.049057Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-12-17T21:09:21.049057Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2022-12-17T21:09:21.049057Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-12-17T21:09:21.049057Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 28196 ...
+2022-12-17T21:09:21.093283Z 0 [ERROR] Can't open shared library 'C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2022-12-17T21:09:21.096290Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2022-12-17T21:09:21.098294Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-12-17T21:09:21.098294Z 0 [Note] InnoDB: Uses event mutexes
+2022-12-17T21:09:21.099293Z 0 [Note] InnoDB: Memory barrier is not used
+2022-12-17T21:09:21.099293Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-12-17T21:09:21.101291Z 0 [Note] InnoDB: Number of pools: 1
+2022-12-17T21:09:21.101291Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-12-17T21:09:21.171037Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-12-17T21:09:21.182073Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-12-17T21:09:21.264269Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-12-17T21:09:21.267277Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1437835
+2022-12-17T21:09:21.269280Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1437844
+2022-12-17T21:09:21.271280Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1437844
+2022-12-17T21:09:21.272281Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-12-17T21:09:21.273418Z 0 [Note] InnoDB: Starting crash recovery.
+2022-12-17T21:09:21.488904Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-12-17T21:09:21.490905Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-12-17T21:09:21.493426Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-12-17T21:09:21.504956Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-12-17T21:09:21.518498Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-12-17T21:09:21.520496Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-12-17T21:09:21.523018Z 0 [Note] InnoDB: Waiting for purge to start
+2022-12-17T21:09:21.584173Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 1437844
+2022-12-17T21:09:21.585184Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2022-12-17T21:09:21.586190Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-12-17T21:09:21.599713Z 0 [Note] InnoDB: Buffer pool(s) load completed at 221217 22:09:21
+2022-12-17T21:09:21.607235Z 0 [Warning] InnoDB: Cannot open table mysql/plugin from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+mysqld: Table 'mysql.plugin' doesn't exist
+2022-12-17T21:09:21.610235Z 0 [ERROR] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+2022-12-17T21:09:21.628280Z 0 [Warning] InnoDB: Cannot open table mysql/gtid_executed from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+mysqld: Table 'mysql.gtid_executed' doesn't exist
+2022-12-17T21:09:21.632785Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2022-12-17T21:09:21.633793Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2022-12-17T21:09:21.639804Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-12-17T21:09:21.640804Z 0 [Note] IPv6 is available.
+2022-12-17T21:09:21.642310Z 0 [Note]   - '::' resolves to '::';
+2022-12-17T21:09:21.643317Z 0 [Note] Server socket created on IP: '::'.
+2022-12-17T21:09:21.652835Z 0 [Warning] InnoDB: Cannot open table mysql/server_cost from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-17T21:09:21.656857Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2022-12-17T21:09:21.744116Z 0 [Warning] Found invalid password for user: 'recettes_user@localhost'; Ignoring user
+2022-12-17T21:09:21.756646Z 0 [Warning] InnoDB: Cannot open table mysql/time_zone_leap_second from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-17T21:09:21.760640Z 0 [Warning] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+2022-12-17T21:09:21.833255Z 0 [Warning] InnoDB: Cannot open table mysql/servers from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-17T21:09:21.836254Z 0 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2022-12-17T21:09:23.033179Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-12-17T21:09:23.035180Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-12-18T23:37:43.569416Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-12-18T23:37:43.570414Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-12-18T23:37:43.570414Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-12-18T23:37:43.570414Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2022-12-18T23:37:43.570414Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-12-18T23:37:43.570414Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 8628 ...
+2022-12-18T23:37:43.612423Z 0 [ERROR] Can't open shared library 'C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2022-12-18T23:37:43.614422Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2022-12-18T23:37:43.616940Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-12-18T23:37:43.616940Z 0 [Note] InnoDB: Uses event mutexes
+2022-12-18T23:37:43.617944Z 0 [Note] InnoDB: Memory barrier is not used
+2022-12-18T23:37:43.618942Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-12-18T23:37:43.619948Z 0 [Note] InnoDB: Number of pools: 1
+2022-12-18T23:37:43.620942Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-12-18T23:37:43.696150Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-12-18T23:37:43.708185Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-12-18T23:37:43.773089Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-12-18T23:37:43.775596Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1437863
+2022-12-18T23:37:43.776604Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1437872
+2022-12-18T23:37:43.777610Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1437872
+2022-12-18T23:37:43.778617Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-12-18T23:37:43.779619Z 0 [Note] InnoDB: Starting crash recovery.
+2022-12-18T23:37:43.965805Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-12-18T23:37:43.965805Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-12-18T23:37:43.967938Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-12-18T23:37:43.980459Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-12-18T23:37:43.988973Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-12-18T23:37:43.989975Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-12-18T23:37:43.991976Z 0 [Note] InnoDB: Waiting for purge to start
+2022-12-18T23:37:44.045815Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 1437872
+2022-12-18T23:37:44.046691Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2022-12-18T23:37:44.046691Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-12-18T23:37:44.056209Z 0 [Note] InnoDB: Buffer pool(s) load completed at 221219  0:37:44
+2022-12-18T23:37:44.061222Z 0 [Warning] InnoDB: Cannot open table mysql/plugin from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+mysqld: Table 'mysql.plugin' doesn't exist
+2022-12-18T23:37:44.063215Z 0 [ERROR] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+2022-12-18T23:37:44.077236Z 0 [Warning] InnoDB: Cannot open table mysql/gtid_executed from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+mysqld: Table 'mysql.gtid_executed' doesn't exist
+2022-12-18T23:37:44.080243Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2022-12-18T23:37:44.082244Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2022-12-18T23:37:44.087770Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-12-18T23:37:44.088768Z 0 [Note] IPv6 is available.
+2022-12-18T23:37:44.088768Z 0 [Note]   - '::' resolves to '::';
+2022-12-18T23:37:44.089765Z 0 [Note] Server socket created on IP: '::'.
+2022-12-18T23:37:44.098283Z 0 [Warning] InnoDB: Cannot open table mysql/server_cost from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-18T23:37:44.101289Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2022-12-18T23:37:44.193712Z 0 [Warning] Found invalid password for user: 'recettes_user@localhost'; Ignoring user
+2022-12-18T23:37:44.204088Z 0 [Warning] InnoDB: Cannot open table mysql/time_zone_leap_second from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-18T23:37:44.207609Z 0 [Warning] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+2022-12-18T23:37:44.259302Z 0 [Warning] InnoDB: Cannot open table mysql/servers from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-18T23:37:44.263303Z 0 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2022-12-18T23:37:45.368526Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-12-18T23:37:45.369526Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-12-19T03:20:24.304653Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 51662ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-12-19T18:36:53.513148Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-12-19T18:36:53.513148Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-12-19T18:36:53.513148Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-12-19T18:36:53.513148Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2022-12-19T18:36:53.514150Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-12-19T18:36:53.514150Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 31296 ...
+2022-12-19T18:36:53.551940Z 0 [ERROR] Can't open shared library 'C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2022-12-19T18:36:53.552940Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2022-12-19T18:36:53.553941Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-12-19T18:36:53.555432Z 0 [Note] InnoDB: Uses event mutexes
+2022-12-19T18:36:53.556431Z 0 [Note] InnoDB: Memory barrier is not used
+2022-12-19T18:36:53.556431Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-12-19T18:36:53.557431Z 0 [Note] InnoDB: Number of pools: 1
+2022-12-19T18:36:53.558432Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-12-19T18:36:53.616209Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-12-19T18:36:53.624761Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-12-19T18:36:53.669684Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-12-19T18:36:53.671675Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1437891
+2022-12-19T18:36:53.672675Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1437900
+2022-12-19T18:36:53.672675Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1437900
+2022-12-19T18:36:53.674181Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-12-19T18:36:53.675195Z 0 [Note] InnoDB: Starting crash recovery.
+2022-12-19T18:36:53.846597Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-12-19T18:36:53.846597Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-12-19T18:36:53.848554Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-12-19T18:36:53.861202Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-12-19T18:36:53.869309Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-12-19T18:36:53.870308Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-12-19T18:36:53.871317Z 0 [Note] InnoDB: Waiting for purge to start
+2022-12-19T18:36:53.932268Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 1437900
+2022-12-19T18:36:53.933296Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2022-12-19T18:36:53.933296Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-12-19T18:36:53.941862Z 0 [Note] InnoDB: Buffer pool(s) load completed at 221219 19:36:53
+2022-12-19T18:36:53.945948Z 0 [Warning] InnoDB: Cannot open table mysql/plugin from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+mysqld: Table 'mysql.plugin' doesn't exist
+2022-12-19T18:36:53.947962Z 0 [ERROR] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+2022-12-19T18:36:53.958351Z 0 [Warning] InnoDB: Cannot open table mysql/gtid_executed from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+mysqld: Table 'mysql.gtid_executed' doesn't exist
+2022-12-19T18:36:53.960395Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2022-12-19T18:36:53.961360Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2022-12-19T18:36:53.965917Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-12-19T18:36:53.966915Z 0 [Note] IPv6 is available.
+2022-12-19T18:36:53.966915Z 0 [Note]   - '::' resolves to '::';
+2022-12-19T18:36:53.967924Z 0 [Note] Server socket created on IP: '::'.
+2022-12-19T18:36:53.975426Z 0 [Warning] InnoDB: Cannot open table mysql/server_cost from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-19T18:36:53.977419Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2022-12-19T18:36:54.044275Z 0 [Warning] Found invalid password for user: 'recettes_user@localhost'; Ignoring user
+2022-12-19T18:36:54.050245Z 0 [Warning] InnoDB: Cannot open table mysql/time_zone_leap_second from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-19T18:36:54.052231Z 0 [Warning] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+2022-12-19T18:36:54.087840Z 0 [Warning] InnoDB: Cannot open table mysql/servers from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-19T18:36:54.089853Z 0 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2022-12-19T18:36:54.874879Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-12-19T18:36:54.875880Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-12-19T22:46:12.196192Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2074040ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-12-20T17:36:23.509772Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-12-20T17:36:23.509772Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-12-20T17:36:23.510776Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-12-20T17:36:23.510776Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2022-12-20T17:36:23.510776Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-12-20T17:36:23.510776Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 9164 ...
+2022-12-20T17:36:23.572566Z 0 [ERROR] Can't open shared library 'C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2022-12-20T17:36:23.575588Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2022-12-20T17:36:23.577586Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-12-20T17:36:23.579587Z 0 [Note] InnoDB: Uses event mutexes
+2022-12-20T17:36:23.580589Z 0 [Note] InnoDB: Memory barrier is not used
+2022-12-20T17:36:23.580589Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-12-20T17:36:23.582585Z 0 [Note] InnoDB: Number of pools: 1
+2022-12-20T17:36:23.583845Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-12-20T17:36:23.687921Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-12-20T17:36:23.700443Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-12-20T17:36:23.769800Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-12-20T17:36:23.772798Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1437919
+2022-12-20T17:36:23.775105Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1437928
+2022-12-20T17:36:23.777105Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1437928
+2022-12-20T17:36:23.778110Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-12-20T17:36:23.779107Z 0 [Note] InnoDB: Starting crash recovery.
+2022-12-20T17:36:23.982761Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-12-20T17:36:23.983770Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-12-20T17:36:23.985769Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-12-20T17:36:23.997798Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-12-20T17:36:24.010334Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-12-20T17:36:24.011334Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-12-20T17:36:24.013852Z 0 [Note] InnoDB: Waiting for purge to start
+2022-12-20T17:36:24.075985Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 1437928
+2022-12-20T17:36:24.076981Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2022-12-20T17:36:24.077985Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-12-20T17:36:24.092781Z 0 [Note] InnoDB: Buffer pool(s) load completed at 221220 18:36:24
+2022-12-20T17:36:24.101793Z 0 [Warning] InnoDB: Cannot open table mysql/plugin from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+mysqld: Table 'mysql.plugin' doesn't exist
+2022-12-20T17:36:24.105904Z 0 [ERROR] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+2022-12-20T17:36:24.125650Z 0 [Warning] InnoDB: Cannot open table mysql/gtid_executed from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+mysqld: Table 'mysql.gtid_executed' doesn't exist
+2022-12-20T17:36:24.130652Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2022-12-20T17:36:24.132654Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2022-12-20T17:36:24.138927Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-12-20T17:36:24.139925Z 0 [Note] IPv6 is available.
+2022-12-20T17:36:24.140926Z 0 [Note]   - '::' resolves to '::';
+2022-12-20T17:36:24.141927Z 0 [Note] Server socket created on IP: '::'.
+2022-12-20T17:36:24.151455Z 0 [Warning] InnoDB: Cannot open table mysql/server_cost from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T17:36:24.154973Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2022-12-20T17:36:24.240484Z 0 [Warning] Found invalid password for user: 'recettes_user@localhost'; Ignoring user
+2022-12-20T17:36:24.249998Z 0 [Warning] InnoDB: Cannot open table mysql/time_zone_leap_second from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T17:36:24.253518Z 0 [Warning] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+2022-12-20T17:36:24.348892Z 0 [Warning] InnoDB: Cannot open table mysql/servers from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T17:36:24.352893Z 0 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2022-12-20T17:36:25.565477Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-12-20T17:36:25.566476Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-12-20T17:55:00.906109Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2022-12-20T17:55:00.907500Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2022-12-20T17:55:00.908510Z 0 [Note] Shutting down slave threads
+2022-12-20T17:55:00.909509Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2022-12-20T17:55:00.910509Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-12-20T17:55:00.912525Z 0 [Note] Binlog end
+2022-12-20T17:55:00.914525Z 0 [Note] Shutting down plugin 'ngram'
+2022-12-20T17:55:00.914525Z 0 [Note] Shutting down plugin 'partition'
+2022-12-20T17:55:00.914525Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-12-20T17:55:00.916112Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-12-20T17:55:00.917051Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-12-20T17:55:00.918048Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-12-20T17:55:00.919058Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-12-20T17:55:00.919058Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-12-20T17:55:00.920094Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-12-20T17:55:00.921058Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-12-20T17:55:00.922062Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-12-20T17:55:00.923063Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-12-20T17:55:00.923063Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-12-20T17:55:00.924058Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-12-20T17:55:00.924058Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-12-20T17:55:00.925094Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-12-20T17:55:00.926063Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-12-20T17:55:00.926569Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-12-20T17:55:00.926569Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-12-20T17:55:00.927576Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-12-20T17:55:00.927576Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-12-20T17:55:00.928582Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-12-20T17:55:00.929582Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-12-20T17:55:00.929582Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-12-20T17:55:00.930582Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-12-20T17:55:00.930582Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-12-20T17:55:00.931582Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-12-20T17:55:00.931582Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-12-20T17:55:00.932628Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-12-20T17:55:00.933629Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-12-20T17:55:00.933629Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-12-20T17:55:00.934593Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-12-20T17:55:00.934593Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-12-20T17:55:00.934593Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-12-20T17:55:00.936174Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-12-20T17:55:00.936174Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-12-20T17:55:00.937130Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-12-20T17:55:00.938121Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-12-20T17:55:00.939145Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-12-20T17:55:00.940128Z 0 [Note] InnoDB: Starting shutdown...
+2022-12-20T17:55:01.047184Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2022-12-20T17:55:01.051192Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 221220 18:55:01
+2022-12-20T17:55:01.826427Z 0 [Note] InnoDB: Shutdown completed; log sequence number 1437956
+2022-12-20T17:55:01.827392Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-12-20T17:55:01.827392Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-12-20T17:55:01.828391Z 0 [Note] Shutting down plugin 'CSV'
+2022-12-20T17:55:01.828391Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-12-20T17:55:01.829426Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-12-20T17:55:01.829426Z 0 [Note] Shutting down plugin 'binlog'
+2022-12-20T17:55:01.831391Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2022-12-20T17:55:12.708326Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-12-20T17:55:12.709325Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-12-20T17:55:12.709325Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-12-20T17:55:12.709325Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2022-12-20T17:55:12.709325Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-12-20T17:55:12.709325Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 23092 ...
+2022-12-20T17:55:12.723861Z 0 [ERROR] Can't open shared library 'C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2022-12-20T17:55:12.725876Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2022-12-20T17:55:12.728005Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-12-20T17:55:12.729003Z 0 [Note] InnoDB: Uses event mutexes
+2022-12-20T17:55:12.729988Z 0 [Note] InnoDB: Memory barrier is not used
+2022-12-20T17:55:12.731004Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-12-20T17:55:12.731988Z 0 [Note] InnoDB: Number of pools: 1
+2022-12-20T17:55:12.732999Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-12-20T17:55:12.806073Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-12-20T17:55:12.820334Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-12-20T17:55:12.872019Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-12-20T17:55:12.923104Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-12-20T17:55:12.925093Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-12-20T17:55:12.934620Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-12-20T17:55:12.946144Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-12-20T17:55:12.946650Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-12-20T17:55:12.948671Z 0 [Note] InnoDB: Waiting for purge to start
+2022-12-20T17:55:13.002935Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 1437956
+2022-12-20T17:55:13.004936Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-12-20T17:55:13.004936Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2022-12-20T17:55:13.005934Z 0 [Warning] InnoDB: Cannot open table mysql/plugin from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+mysqld: Table 'mysql.plugin' doesn't exist
+2022-12-20T17:55:13.010417Z 0 [ERROR] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+2022-12-20T17:55:13.011418Z 0 [Note] InnoDB: Buffer pool(s) load completed at 221220 18:55:13
+2022-12-20T17:55:13.012423Z 0 [Warning] InnoDB: Cannot open table mysql/gtid_executed from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+mysqld: Table 'mysql.gtid_executed' doesn't exist
+2022-12-20T17:55:13.014418Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2022-12-20T17:55:13.016934Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2022-12-20T17:55:13.023947Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-12-20T17:55:13.024947Z 0 [Note] IPv6 is available.
+2022-12-20T17:55:13.025943Z 0 [Note]   - '::' resolves to '::';
+2022-12-20T17:55:13.025943Z 0 [Note] Server socket created on IP: '::'.
+2022-12-20T17:55:13.028275Z 0 [Warning] InnoDB: Cannot open table mysql/server_cost from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T17:55:13.031279Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2022-12-20T17:55:13.042798Z 0 [Warning] Found invalid password for user: 'recettes_user@localhost'; Ignoring user
+2022-12-20T17:55:13.043797Z 0 [Warning] InnoDB: Cannot open table mysql/time_zone_leap_second from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T17:55:13.047321Z 0 [Warning] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+2022-12-20T17:55:13.052314Z 0 [Warning] InnoDB: Cannot open table mysql/servers from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T17:55:13.054315Z 0 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2022-12-20T17:55:13.086408Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-12-20T17:55:13.087416Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-12-20T18:05:43.091813Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2022-12-20T18:05:43.093815Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2022-12-20T18:05:43.093815Z 0 [Note] Shutting down slave threads
+2022-12-20T18:05:43.094819Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2022-12-20T18:05:43.094819Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-12-20T18:05:43.096819Z 0 [Note] Binlog end
+2022-12-20T18:05:43.097813Z 0 [Note] Shutting down plugin 'ngram'
+2022-12-20T18:05:43.097813Z 0 [Note] Shutting down plugin 'partition'
+2022-12-20T18:05:43.099058Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-12-20T18:05:43.099058Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-12-20T18:05:43.100059Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-12-20T18:05:43.100059Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-12-20T18:05:43.101058Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-12-20T18:05:43.101058Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-12-20T18:05:43.102059Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-12-20T18:05:43.102059Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-12-20T18:05:43.103022Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-12-20T18:05:43.103022Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-12-20T18:05:43.104067Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-12-20T18:05:43.104067Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-12-20T18:05:43.105033Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-12-20T18:05:43.105033Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-12-20T18:05:43.106024Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-12-20T18:05:43.107023Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-12-20T18:05:43.107023Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-12-20T18:05:43.108528Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-12-20T18:05:43.108528Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-12-20T18:05:43.109534Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-12-20T18:05:43.109534Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-12-20T18:05:43.110538Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-12-20T18:05:43.110538Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-12-20T18:05:43.111539Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-12-20T18:05:43.112538Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-12-20T18:05:43.112538Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-12-20T18:05:43.113538Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-12-20T18:05:43.113538Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-12-20T18:05:43.114539Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-12-20T18:05:43.114539Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-12-20T18:05:43.115539Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-12-20T18:05:43.115539Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-12-20T18:05:43.116539Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-12-20T18:05:43.116539Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-12-20T18:05:43.116539Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-12-20T18:05:43.118109Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-12-20T18:05:43.118109Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-12-20T18:05:43.119049Z 0 [Note] InnoDB: Starting shutdown...
+2022-12-20T18:05:43.232428Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2022-12-20T18:05:43.234241Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 221220 19:05:43
+2022-12-20T18:05:44.003549Z 0 [Note] InnoDB: Shutdown completed; log sequence number 1437984
+2022-12-20T18:05:44.004524Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-12-20T18:05:44.005525Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-12-20T18:05:44.005525Z 0 [Note] Shutting down plugin 'CSV'
+2022-12-20T18:05:44.006524Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-12-20T18:05:44.006524Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-12-20T18:05:44.006524Z 0 [Note] Shutting down plugin 'binlog'
+2022-12-20T18:05:44.008126Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2022-12-20T18:05:53.129845Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-12-20T18:05:53.129845Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-12-20T18:05:53.129845Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-12-20T18:05:53.129845Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2022-12-20T18:05:53.130843Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-12-20T18:05:53.130843Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 30368 ...
+2022-12-20T18:05:53.145322Z 0 [ERROR] Can't open shared library 'C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2022-12-20T18:05:53.146334Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2022-12-20T18:05:53.147841Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-12-20T18:05:53.148849Z 0 [Note] InnoDB: Uses event mutexes
+2022-12-20T18:05:53.149865Z 0 [Note] InnoDB: Memory barrier is not used
+2022-12-20T18:05:53.150857Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-12-20T18:05:53.151867Z 0 [Note] InnoDB: Number of pools: 1
+2022-12-20T18:05:53.152863Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-12-20T18:05:53.221240Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-12-20T18:05:53.231802Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-12-20T18:05:53.264182Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-12-20T18:05:53.304780Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-12-20T18:05:53.306780Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-12-20T18:05:53.316134Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-12-20T18:05:53.326354Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-12-20T18:05:53.326354Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-12-20T18:05:53.328877Z 0 [Note] InnoDB: Waiting for purge to start
+2022-12-20T18:05:53.386820Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 1437984
+2022-12-20T18:05:53.388360Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2022-12-20T18:05:53.388360Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-12-20T18:05:53.391379Z 0 [Warning] InnoDB: Cannot open table mysql/plugin from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+mysqld: Table 'mysql.plugin' doesn't exist2022-12-20T18:05:53.392382Z 0 [Note] InnoDB: Buffer pool(s) load completed at 221220 19:05:53
+
+2022-12-20T18:05:53.394404Z 0 [ERROR] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+2022-12-20T18:05:53.396410Z 0 [Warning] InnoDB: Cannot open table mysql/gtid_executed from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+mysqld: Table 'mysql.gtid_executed' doesn't exist
+2022-12-20T18:05:53.397916Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2022-12-20T18:05:53.399931Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2022-12-20T18:05:53.403923Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-12-20T18:05:53.405926Z 0 [Note] IPv6 is available.
+2022-12-20T18:05:53.405926Z 0 [Note]   - '::' resolves to '::';
+2022-12-20T18:05:53.406924Z 0 [Note] Server socket created on IP: '::'.
+2022-12-20T18:05:53.408968Z 0 [Warning] InnoDB: Cannot open table mysql/server_cost from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T18:05:53.411968Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2022-12-20T18:05:53.423171Z 0 [Warning] Found invalid password for user: 'recettes_user@localhost'; Ignoring user
+2022-12-20T18:05:53.425181Z 0 [Warning] InnoDB: Cannot open table mysql/time_zone_leap_second from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T18:05:53.427689Z 0 [Warning] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+2022-12-20T18:05:53.430703Z 0 [Warning] InnoDB: Cannot open table mysql/servers from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T18:05:53.432713Z 0 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2022-12-20T18:05:53.458747Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-12-20T18:05:53.459739Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-12-20T22:19:19.879632Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2836893ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-12-20T23:00:27.871626Z 6 [Warning] InnoDB: Cannot open table phpmyadmin/pma__relation from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:00:27.878222Z 6 [Warning] InnoDB: Cannot open table phpmyadmin/pma__table_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:00:27.885222Z 6 [Warning] InnoDB: Cannot open table phpmyadmin/pma__table_coords from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:00:27.890723Z 6 [Warning] InnoDB: Cannot open table phpmyadmin/pma__column_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:00:27.895724Z 6 [Warning] InnoDB: Cannot open table phpmyadmin/pma__history from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:00:27.903340Z 6 [Warning] InnoDB: Cannot open table phpmyadmin/pma__recent from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:00:27.908920Z 6 [Warning] InnoDB: Cannot open table phpmyadmin/pma__favorite from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:00:27.914936Z 6 [Warning] InnoDB: Cannot open table phpmyadmin/pma__table_uiprefs from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:00:27.921545Z 6 [Warning] InnoDB: Cannot open table phpmyadmin/pma__tracking from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:00:27.927510Z 6 [Warning] InnoDB: Cannot open table phpmyadmin/pma__userconfig from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:00:27.934074Z 6 [Warning] InnoDB: Cannot open table phpmyadmin/pma__bookmark from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:00:27.939676Z 6 [Warning] InnoDB: Cannot open table phpmyadmin/pma__users from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:00:27.945680Z 6 [Warning] InnoDB: Cannot open table phpmyadmin/pma__navigationhiding from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:00:27.952236Z 6 [Warning] InnoDB: Cannot open table phpmyadmin/pma__savedsearches from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:00:27.958841Z 6 [Warning] InnoDB: Cannot open table phpmyadmin/pma__central_columns from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:00:27.964841Z 6 [Warning] InnoDB: Cannot open table phpmyadmin/pma__designer_settings from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:00:27.971399Z 6 [Warning] InnoDB: Cannot open table phpmyadmin/pma__export_templates from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:00:42.206200Z 23 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-12-20T23:00:42.211732Z 23 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-12-20T23:00:42.212733Z 23 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_framework`.`t_user` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-20T23:00:42.239447Z 23 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-12-20T23:00:42.239447Z 23 [Note] InnoDB: Recalculation of persistent statistics requested for table `db_framework`.`t_user` index `ID_t_user_IND` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-12-20T23:00:42.242453Z 23 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-12-20T23:00:42.243455Z 23 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_framework`.`t_user` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-20T23:01:06.201488Z 42 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-12-20T23:01:06.201488Z 42 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_gestproj-test`.`t_acheter` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-20T23:01:06.209868Z 42 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-12-20T23:01:06.209868Z 42 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_gestproj-test`.`t_client` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-20T23:01:06.223450Z 42 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-12-20T23:01:06.223450Z 42 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_gestproj-test`.`t_smartphone` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-20T23:01:42.578606Z 52 [Warning] InnoDB: Cannot open table db_redwire/t_article from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:01:42.585141Z 52 [Warning] InnoDB: Cannot open table db_redwire/t_client from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:01:42.595665Z 52 [Warning] InnoDB: Cannot open table db_redwire/t_employee from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:01:42.603674Z 52 [Warning] InnoDB: Cannot open table db_redwire/t_involve from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:01:42.609925Z 52 [Warning] InnoDB: Cannot open table db_redwire/t_order from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:01:42.617480Z 52 [Warning] InnoDB: Cannot open table db_redwire/t_supplier from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:01:42.620445Z 52 [Warning] InnoDB: Cannot open table db_redwire/t_article from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:01:42.622455Z 52 [Warning] InnoDB: Cannot open table db_redwire/t_client from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:01:42.625043Z 52 [Warning] InnoDB: Cannot open table db_redwire/t_employee from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:01:42.626049Z 52 [Warning] InnoDB: Cannot open table db_redwire/t_involve from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:01:42.628032Z 52 [Warning] InnoDB: Cannot open table db_redwire/t_order from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:01:42.630031Z 52 [Warning] InnoDB: Cannot open table db_redwire/t_supplier from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:01:45.121985Z 64 [Warning] InnoDB: Cannot open table db_redwire/t_article from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:01:55.361215Z 66 [ERROR] InnoDB: Table `bdmushrooms`.`t_mushroom` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:02:01.940238Z 68 [ERROR] InnoDB: Table `bdorder`.`t_command` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:02:01.942239Z 68 [ERROR] InnoDB: Table `bdorder`.`t_item` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:02:08.826561Z 72 [ERROR] InnoDB: Table `clicom`.`client` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:02:08.828521Z 72 [ERROR] InnoDB: Table `clicom`.`commande` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:02:08.831493Z 72 [ERROR] InnoDB: Table `clicom`.`detail` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:02:08.833532Z 72 [ERROR] InnoDB: Table `clicom`.`produit` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:02:11.926383Z 74 [ERROR] InnoDB: Table `csv_db 13`.`smartphoneranking` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:02:17.495480Z 76 [ERROR] InnoDB: Table `db_articlemgmnt`.`t_article` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:02:17.498459Z 76 [ERROR] InnoDB: Table `db_articlemgmnt`.`t_client` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:02:17.500480Z 76 [ERROR] InnoDB: Table `db_articlemgmnt`.`t_involve` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:02:17.502479Z 76 [ERROR] InnoDB: Table `db_articlemgmnt`.`t_order` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:02:17.505046Z 76 [ERROR] InnoDB: Table `db_articlemgmnt`.`t_supplier` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:05:07.752747Z 150 [Note] Access denied for user 'ODBC'@'localhost' (using password: NO)
+2022-12-20T23:05:08.640482Z 151 [Note] Access denied for user 'ODBC'@'localhost' (using password: NO)
+2022-12-20T23:07:58.139618Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2022-12-20T23:07:58.141609Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2022-12-20T23:07:58.142605Z 0 [Note] Shutting down slave threads
+2022-12-20T23:07:58.143624Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2022-12-20T23:07:58.144606Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-12-20T23:07:58.147773Z 0 [Note] Binlog end
+2022-12-20T23:07:58.153763Z 0 [Note] Shutting down plugin 'ngram'
+2022-12-20T23:07:58.155268Z 0 [Note] Shutting down plugin 'partition'
+2022-12-20T23:07:58.155268Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-12-20T23:07:58.156279Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-12-20T23:07:58.157305Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-12-20T23:07:58.158289Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-12-20T23:07:58.159294Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-12-20T23:07:58.160299Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-12-20T23:07:58.160299Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-12-20T23:07:58.161297Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-12-20T23:07:58.162288Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-12-20T23:07:58.163288Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-12-20T23:07:58.163288Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-12-20T23:07:58.164813Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-12-20T23:07:58.165819Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-12-20T23:07:58.165819Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-12-20T23:07:58.166822Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-12-20T23:07:58.167820Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-12-20T23:07:58.167820Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-12-20T23:07:58.168836Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-12-20T23:07:58.169822Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-12-20T23:07:58.170820Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-12-20T23:07:58.171833Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-12-20T23:07:58.172834Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-12-20T23:07:58.172834Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-12-20T23:07:58.174362Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-12-20T23:07:58.175373Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-12-20T23:07:58.176386Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-12-20T23:07:58.177370Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-12-20T23:07:58.178372Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-12-20T23:07:58.179382Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-12-20T23:07:58.179382Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-12-20T23:07:58.180386Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-12-20T23:07:58.181384Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-12-20T23:07:58.181384Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-12-20T23:07:58.182372Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-12-20T23:07:58.183381Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-12-20T23:07:58.183381Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-12-20T23:07:58.184368Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-12-20T23:07:58.185695Z 0 [Note] InnoDB: Starting shutdown...
+2022-12-20T23:07:58.290816Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2022-12-20T23:07:58.294336Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 221221  0:07:58
+2022-12-20T23:07:59.567739Z 0 [Note] InnoDB: Shutdown completed; log sequence number 1443929
+2022-12-20T23:07:59.569739Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-12-20T23:07:59.570740Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-12-20T23:07:59.571738Z 0 [Note] Shutting down plugin 'CSV'
+2022-12-20T23:07:59.572739Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-12-20T23:07:59.574741Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-12-20T23:07:59.576188Z 0 [Note] Shutting down plugin 'binlog'
+2022-12-20T23:07:59.584709Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2022-12-20T23:08:49.546705Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-12-20T23:08:49.546705Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-12-20T23:08:49.546705Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-12-20T23:08:49.546705Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2022-12-20T23:08:49.546705Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-12-20T23:08:49.546705Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 32696 ...
+2022-12-20T23:08:49.568259Z 0 [ERROR] Can't open shared library 'C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2022-12-20T23:08:49.569257Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2022-12-20T23:08:49.571254Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-12-20T23:08:49.571254Z 0 [Note] InnoDB: Uses event mutexes
+2022-12-20T23:08:49.572255Z 0 [Note] InnoDB: Memory barrier is not used
+2022-12-20T23:08:49.572255Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-12-20T23:08:49.573254Z 0 [Note] InnoDB: Number of pools: 1
+2022-12-20T23:08:49.573254Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-12-20T23:08:49.633317Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-12-20T23:08:49.639831Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-12-20T23:08:49.681084Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-12-20T23:08:49.721803Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-12-20T23:08:49.722794Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-12-20T23:08:49.723803Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-12-20T23:08:49.724839Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db_gestproj@002dtest\t_acheter.ibd' OS error: 103
+2022-12-20T23:08:49.726948Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `db_gestproj@002dtest/t_acheter`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2022-12-20T23:08:49.728909Z 0 [Warning] InnoDB: Ignoring tablespace `db_gestproj@002dtest/t_acheter` because it could not be opened.
+2022-12-20T23:08:49.728909Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-12-20T23:08:49.729912Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-12-20T23:08:49.730909Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-12-20T23:08:49.731909Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db_gestproj@002dtest\t_client.ibd' OS error: 103
+2022-12-20T23:08:49.732909Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `db_gestproj@002dtest/t_client`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2022-12-20T23:08:49.733909Z 0 [Warning] InnoDB: Ignoring tablespace `db_gestproj@002dtest/t_client` because it could not be opened.
+2022-12-20T23:08:49.734909Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-12-20T23:08:49.735412Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-12-20T23:08:49.736417Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-12-20T23:08:49.737420Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db_gestproj@002dtest\t_smartphone.ibd' OS error: 103
+2022-12-20T23:08:49.738422Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `db_gestproj@002dtest/t_smartphone`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2022-12-20T23:08:49.739422Z 0 [Warning] InnoDB: Ignoring tablespace `db_gestproj@002dtest/t_smartphone` because it could not be opened.
+2022-12-20T23:08:49.741436Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-12-20T23:08:49.742434Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-12-20T23:08:49.750964Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-12-20T23:08:49.759254Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-12-20T23:08:49.760247Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-12-20T23:08:49.761246Z 0 [Note] InnoDB: Waiting for purge to start
+2022-12-20T23:08:49.815352Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 1443929
+2022-12-20T23:08:49.816358Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2022-12-20T23:08:49.816358Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-12-20T23:08:49.821358Z 0 [Note] InnoDB: Buffer pool(s) load completed at 221221  0:08:49
+2022-12-20T23:08:49.827990Z 0 [Warning] InnoDB: Cannot open table mysql/plugin from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+mysqld: Table 'mysql.plugin' doesn't exist
+2022-12-20T23:08:49.828999Z 0 [ERROR] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+2022-12-20T23:08:49.840024Z 0 [Warning] InnoDB: Cannot open table mysql/gtid_executed from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+mysqld: Table 'mysql.gtid_executed' doesn't exist
+2022-12-20T23:08:49.842067Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2022-12-20T23:08:49.842067Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2022-12-20T23:08:49.845674Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-12-20T23:08:49.846698Z 0 [Note] IPv6 is available.
+2022-12-20T23:08:49.846698Z 0 [Note]   - '::' resolves to '::';
+2022-12-20T23:08:49.847634Z 0 [Note] Server socket created on IP: '::'.
+2022-12-20T23:08:49.870716Z 0 [Warning] InnoDB: Cannot open table mysql/server_cost from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:08:49.871715Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2022-12-20T23:08:49.908867Z 0 [Warning] Found invalid password for user: 'recettes_user@localhost'; Ignoring user
+2022-12-20T23:08:49.914854Z 0 [Warning] InnoDB: Cannot open table mysql/time_zone_leap_second from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:08:49.916380Z 0 [Warning] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+2022-12-20T23:08:49.948979Z 0 [Warning] InnoDB: Cannot open table mysql/servers from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:08:49.950979Z 0 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2022-12-20T23:08:50.653083Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-12-20T23:08:50.653083Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-12-20T23:09:55.775012Z 5 [Warning] InnoDB: Cannot open table phpmyadmin/pma__relation from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:09:55.776592Z 5 [Warning] InnoDB: Cannot open table phpmyadmin/pma__table_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:09:55.778590Z 5 [Warning] InnoDB: Cannot open table phpmyadmin/pma__table_coords from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:09:55.780591Z 5 [Warning] InnoDB: Cannot open table phpmyadmin/pma__column_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:09:55.782564Z 5 [Warning] InnoDB: Cannot open table phpmyadmin/pma__history from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:09:55.785230Z 5 [Warning] InnoDB: Cannot open table phpmyadmin/pma__recent from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:09:55.787171Z 5 [Warning] InnoDB: Cannot open table phpmyadmin/pma__favorite from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:09:55.789170Z 5 [Warning] InnoDB: Cannot open table phpmyadmin/pma__table_uiprefs from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:09:55.791170Z 5 [Warning] InnoDB: Cannot open table phpmyadmin/pma__tracking from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:09:55.793170Z 5 [Warning] InnoDB: Cannot open table phpmyadmin/pma__userconfig from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:09:55.795149Z 5 [Warning] InnoDB: Cannot open table phpmyadmin/pma__bookmark from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:09:55.798677Z 5 [Warning] InnoDB: Cannot open table phpmyadmin/pma__users from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:09:55.800677Z 5 [Warning] InnoDB: Cannot open table phpmyadmin/pma__navigationhiding from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:09:55.802719Z 5 [Warning] InnoDB: Cannot open table phpmyadmin/pma__savedsearches from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:09:55.803719Z 5 [Warning] InnoDB: Cannot open table phpmyadmin/pma__central_columns from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:09:55.806282Z 5 [Warning] InnoDB: Cannot open table phpmyadmin/pma__designer_settings from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:09:55.808318Z 5 [Warning] InnoDB: Cannot open table phpmyadmin/pma__export_templates from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-20T23:11:16.466134Z 48 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-12-20T23:11:16.466134Z 48 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_framework`.`t_user` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-20T23:11:42.248612Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-12-20T23:11:42.249608Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_framework`.`t_user` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-12-21T00:28:48.433069Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2022-12-21T00:28:48.435069Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2022-12-21T00:28:48.436070Z 0 [Note] Shutting down slave threads
+2022-12-21T00:28:48.437072Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2022-12-21T00:28:48.438070Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-12-21T00:28:48.439656Z 0 [Note] Binlog end
+2022-12-21T00:28:48.446593Z 0 [Note] Shutting down plugin 'ngram'
+2022-12-21T00:28:48.447595Z 0 [Note] Shutting down plugin 'partition'
+2022-12-21T00:28:48.448593Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-12-21T00:28:48.449590Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-12-21T00:28:48.450663Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-12-21T00:28:48.450663Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-12-21T00:28:48.451663Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-12-21T00:28:48.452664Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-12-21T00:28:48.453665Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-12-21T00:28:48.454665Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-12-21T00:28:48.455665Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-12-21T00:28:48.456665Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-12-21T00:28:48.456665Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-12-21T00:28:48.457666Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-12-21T00:28:48.458665Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-12-21T00:28:48.459664Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-12-21T00:28:48.460171Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-12-21T00:28:48.461180Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-12-21T00:28:48.462189Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-12-21T00:28:48.463189Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-12-21T00:28:48.464190Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-12-21T00:28:48.465194Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-12-21T00:28:48.466188Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-12-21T00:28:48.467188Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-12-21T00:28:48.468188Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-12-21T00:28:48.468188Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-12-21T00:28:48.470241Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-12-21T00:28:48.471248Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-12-21T00:28:48.472250Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-12-21T00:28:48.473249Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-12-21T00:28:48.474252Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-12-21T00:28:48.475256Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-12-21T00:28:48.476254Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-12-21T00:28:48.477253Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-12-21T00:28:48.478254Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-12-21T00:28:48.478254Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-12-21T00:28:48.479766Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-12-21T00:28:48.480777Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-12-21T00:28:48.481777Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-12-21T00:28:48.481777Z 0 [Note] InnoDB: Starting shutdown...
+2022-12-21T00:28:48.597458Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2022-12-21T00:28:48.600939Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 221221  1:28:48
+2022-12-21T00:28:49.376441Z 0 [Note] InnoDB: Shutdown completed; log sequence number 1444634
+2022-12-21T00:28:49.376441Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-12-21T00:28:49.377438Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-12-21T00:28:49.377438Z 0 [Note] Shutting down plugin 'CSV'
+2022-12-21T00:28:49.378451Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-12-21T00:28:49.378451Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-12-21T00:28:49.378451Z 0 [Note] Shutting down plugin 'binlog'
+2022-12-21T00:28:49.381021Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2022-12-21T00:28:54.743591Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-12-21T00:28:54.743591Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-12-21T00:28:54.743591Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-12-21T00:28:54.743591Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2022-12-21T00:28:54.743591Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-12-21T00:28:54.743591Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 19624 ...
+2022-12-21T00:28:54.762947Z 0 [ERROR] Can't open shared library 'C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2022-12-21T00:28:54.764946Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2022-12-21T00:28:54.766962Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-12-21T00:28:54.767963Z 0 [Note] InnoDB: Uses event mutexes
+2022-12-21T00:28:54.768963Z 0 [Note] InnoDB: Memory barrier is not used
+2022-12-21T00:28:54.769964Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-12-21T00:28:54.771516Z 0 [Note] InnoDB: Number of pools: 1
+2022-12-21T00:28:54.772516Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-12-21T00:28:54.846676Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-12-21T00:28:54.857743Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-12-21T00:28:54.904935Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-12-21T00:28:54.948078Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-12-21T00:28:54.950626Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-12-21T00:28:54.951631Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-12-21T00:28:54.952617Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db_gestproj@002dtest\t_acheter.ibd' OS error: 103
+2022-12-21T00:28:54.954616Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `db_gestproj@002dtest/t_acheter`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2022-12-21T00:28:54.957636Z 0 [Warning] InnoDB: Ignoring tablespace `db_gestproj@002dtest/t_acheter` because it could not be opened.
+2022-12-21T00:28:54.959632Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-12-21T00:28:54.961115Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-12-21T00:28:54.962124Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-12-21T00:28:54.964139Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db_gestproj@002dtest\t_client.ibd' OS error: 103
+2022-12-21T00:28:54.966140Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `db_gestproj@002dtest/t_client`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2022-12-21T00:28:54.968125Z 0 [Warning] InnoDB: Ignoring tablespace `db_gestproj@002dtest/t_client` because it could not be opened.
+2022-12-21T00:28:54.970657Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-12-21T00:28:54.971658Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-12-21T00:28:54.973670Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-12-21T00:28:54.974684Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db_gestproj@002dtest\t_smartphone.ibd' OS error: 103
+2022-12-21T00:28:54.977200Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `db_gestproj@002dtest/t_smartphone`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2022-12-21T00:28:54.980738Z 0 [Warning] InnoDB: Ignoring tablespace `db_gestproj@002dtest/t_smartphone` because it could not be opened.
+2022-12-21T00:28:54.982729Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-12-21T00:28:54.984743Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-12-21T00:28:54.994888Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-12-21T00:28:55.007416Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-12-21T00:28:55.008416Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-12-21T00:28:55.010938Z 0 [Note] InnoDB: Waiting for purge to start
+2022-12-21T00:28:55.063037Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 1444634
+2022-12-21T00:28:55.065038Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2022-12-21T00:28:55.065038Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-12-21T00:28:55.071556Z 0 [Warning] InnoDB: Cannot open table mysql/plugin from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-21T00:28:55.073567Z 0 [Note] InnoDB: Buffer pool(s) load completed at 221221  1:28:55
+mysqld: Table 'mysql.plugin' doesn't exist
+2022-12-21T00:28:55.076078Z 0 [ERROR] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+2022-12-21T00:28:55.079600Z 0 [Warning] InnoDB: Cannot open table mysql/gtid_executed from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+mysqld: Table 'mysql.gtid_executed' doesn't exist
+2022-12-21T00:28:55.082609Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2022-12-21T00:28:55.084611Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2022-12-21T00:28:55.091687Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-12-21T00:28:55.092698Z 0 [Note] IPv6 is available.
+2022-12-21T00:28:55.093699Z 0 [Note]   - '::' resolves to '::';
+2022-12-21T00:28:55.094695Z 0 [Note] Server socket created on IP: '::'.
+2022-12-21T00:28:55.096697Z 0 [Warning] InnoDB: Cannot open table mysql/server_cost from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-21T00:28:55.101217Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2022-12-21T00:28:55.113736Z 0 [Warning] Found invalid password for user: 'recettes_user@localhost'; Ignoring user
+2022-12-21T00:28:55.115735Z 0 [Warning] InnoDB: Cannot open table mysql/time_zone_leap_second from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-21T00:28:55.119737Z 0 [Warning] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+2022-12-21T00:28:55.124211Z 0 [Warning] InnoDB: Cannot open table mysql/servers from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-12-21T00:28:55.128212Z 0 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2022-12-21T00:28:55.170881Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-12-21T00:28:55.171883Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-12-21T00:28:58.625722Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-12-21T00:28:58.626756Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_framework`.`t_user` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-21T00:33:53.434429Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2022-12-21T00:33:53.435438Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2022-12-21T00:33:53.436560Z 0 [Note] Shutting down slave threads
+2022-12-21T00:33:53.436560Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2022-12-21T00:33:53.437560Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-12-21T00:33:53.438579Z 0 [Note] Binlog end
+2022-12-21T00:33:53.439575Z 0 [Note] Shutting down plugin 'ngram'
+2022-12-21T00:33:53.440566Z 0 [Note] Shutting down plugin 'partition'
+2022-12-21T00:33:53.440566Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-12-21T00:33:53.441566Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-12-21T00:33:53.441566Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-12-21T00:33:53.441566Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-12-21T00:33:53.443071Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-12-21T00:33:53.443071Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-12-21T00:33:53.444077Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-12-21T00:33:53.444077Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-12-21T00:33:53.444077Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-12-21T00:33:53.445590Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-12-21T00:33:53.445702Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-12-21T00:33:53.446598Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-12-21T00:33:53.446598Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-12-21T00:33:53.447609Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-12-21T00:33:53.447609Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-12-21T00:33:53.448605Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-12-21T00:33:53.448605Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-12-21T00:33:53.449646Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-12-21T00:33:53.450639Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-12-21T00:33:53.450639Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-12-21T00:33:53.451599Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-12-21T00:33:53.452640Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-12-21T00:33:53.452640Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-12-21T00:33:53.453596Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-12-21T00:33:53.454605Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-12-21T00:33:53.455599Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-12-21T00:33:53.455599Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-12-21T00:33:53.456728Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-12-21T00:33:53.457771Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-12-21T00:33:53.457771Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-12-21T00:33:53.458744Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-12-21T00:33:53.458744Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-12-21T00:33:53.459730Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-12-21T00:33:53.459730Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-12-21T00:33:53.459730Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-12-21T00:33:53.460737Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-12-21T00:33:53.460737Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-12-21T00:33:53.461771Z 0 [Note] InnoDB: Starting shutdown...
+2022-12-21T00:33:53.568742Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2022-12-21T00:33:53.572742Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 221221  1:33:53
+2022-12-21T00:33:54.564171Z 0 [Note] InnoDB: Shutdown completed; log sequence number 1444662
+2022-12-21T00:33:54.564171Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-12-21T00:33:54.565688Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-12-21T00:33:54.566695Z 0 [Note] Shutting down plugin 'CSV'
+2022-12-21T00:33:54.566695Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-12-21T00:33:54.567701Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-12-21T00:33:54.567701Z 0 [Note] Shutting down plugin 'binlog'
+2022-12-21T00:33:54.568717Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\DATABASE\Database\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+

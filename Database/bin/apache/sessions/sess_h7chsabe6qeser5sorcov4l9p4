@@ -1,0 +1,52 @@
+ PMA_token |s:32:"2839487c396c417426715a6863494e4c"; HMAC_secret |s:16:"r[K;pOZnp6BRQG>";browser_access_time|a:1:{s:7:"default";i:1671577420;}encryption_key|s:32:"ÛÔöú¬¡S§>”wEπG¨ÌÊÈ≈°òºCﬁú·˝§";relation|a:1:{i:1;a:41:{s:11:"PMA_VERSION";s:5:"5.0.4";s:7:"relwork";b:0;s:11:"displaywork";b:0;s:12:"bookmarkwork";b:0;s:7:"pdfwork";b:0;s:8:"commwork";b:0;s:8:"mimework";b:0;s:11:"historywork";b:0;s:10:"recentwork";b:0;s:12:"favoritework";b:0;s:11:"uiprefswork";b:0;s:12:"trackingwork";b:0;s:14:"userconfigwork";b:0;s:9:"menuswork";b:0;s:7:"navwork";b:0;s:17:"savedsearcheswork";b:0;s:18:"centralcolumnswork";b:0;s:20:"designersettingswork";b:0;s:19:"exporttemplateswork";b:0;s:8:"allworks";b:0;s:4:"user";s:4:"root";s:2:"db";s:10:"phpmyadmin";s:8:"bookmark";s:13:"pma__bookmark";s:15:"central_columns";s:20:"pma__central_columns";s:11:"column_info";s:16:"pma__column_info";s:17:"designer_settings";s:22:"pma__designer_settings";s:16:"export_templates";s:21:"pma__export_templates";s:8:"favorite";s:13:"pma__favorite";s:7:"history";s:12:"pma__history";s:16:"navigationhiding";s:21:"pma__navigationhiding";s:9:"pdf_pages";s:14:"pma__pdf_pages";s:6:"recent";s:11:"pma__recent";s:8:"relation";s:13:"pma__relation";s:13:"savedsearches";s:18:"pma__savedsearches";s:12:"table_coords";s:17:"pma__table_coords";s:10:"table_info";s:15:"pma__table_info";s:13:"table_uiprefs";s:18:"pma__table_uiprefs";s:8:"tracking";s:13:"pma__tracking";s:10:"userconfig";s:15:"pma__userconfig";s:10:"usergroups";s:15:"pma__usergroups";s:5:"users";s:10:"pma__users";}}cache|a:3:{s:13:"server_1_root";a:19:{s:14:"mysql_cur_user";s:14:"root@localhost";s:17:"is_create_db_priv";b:1;s:14:"is_reload_priv";b:1;s:12:"db_to_create";s:0:"";s:30:"dbs_where_create_table_allowed";a:1:{i:0;s:1:"*";}s:11:"dbs_to_test";b:0;s:9:"proc_priv";b:1;s:10:"table_priv";b:1;s:8:"col_priv";b:1;s:7:"db_priv";b:1;s:12:"is_grantuser";b:1;s:13:"is_createuser";b:1;s:12:"is_superuser";b:1;s:11:"binary_logs";a:0:{}s:18:"menu-levels-server";a:13:{s:9:"databases";s:17:"Bases de donn√©es";s:3:"sql";s:3:"SQL";s:6:"status";s:5:"√âtat";s:6:"rights";s:12:"Utilisateurs";s:6:"export";s:8:"Exporter";s:6:"import";s:8:"Importer";s:8:"settings";s:11:"Param√®tres";s:6:"binlog";s:15:"Journal binaire";s:11:"replication";s:12:"R√©plication";s:4:"vars";s:9:"Variables";s:7:"charset";s:19:"Jeux de caract√®res";s:7:"plugins";s:10:"Extensions";s:6:"engine";s:7:"Moteurs";}s:14:"menu-levels-db";a:14:{s:9:"structure";s:9:"Structure";s:3:"sql";s:3:"SQL";s:6:"search";s:10:"Rechercher";s:5:"query";s:8:"Requ√™te";s:6:"export";s:8:"Exporter";s:6:"import";s:8:"Importer";s:9:"operation";s:11:"Op√©rations";s:10:"privileges";s:11:"Privil√®ges";s:8:"routines";s:21:"Proc√©dures stock√©es";s:6:"events";s:12:"√âv√®nements";s:8:"triggers";s:13:"D√©clencheurs";s:8:"tracking";s:5:"Suivi";s:8:"designer";s:10:"Concepteur";s:15:"central_columns";s:18:"Colonnes centrales";}s:24:"disabled_storage_engines";s:0:"";s:19:"profiling_supported";b:1;s:17:"menu-levels-table";a:11:{s:6:"browse";s:9:"Parcourir";s:9:"structure";s:9:"Structure";s:3:"sql";s:3:"SQL";s:6:"search";s:10:"Rechercher";s:6:"insert";s:8:"Ins√©rer";s:6:"export";s:8:"Exporter";s:6:"import";s:8:"Importer";s:10:"privileges";s:11:"Privil√®ges";s:9:"operation";s:11:"Op√©rations";s:8:"tracking";s:5:"Suivi";s:8:"triggers";s:13:"D√©clencheurs";}}s:8:"server_1";a:4:{s:15:"userprefs_mtime";i:1671577303;s:14:"userprefs_type";s:7:"session";s:12:"config_mtime";i:1671211359;s:9:"userprefs";a:2:{s:4:"lang";s:2:"fr";s:7:"Console";a:1:{s:4:"Mode";s:8:"collapse";}}}s:13:"version_check";a:2:{s:8:"response";s:420:"{
+    "date": "2022-05-11", 
+    "version": "5.2.0", 
+    "releases": [
+        {
+            "date": "2022-05-11", 
+            "php_versions": ">=7.2,<8.1", 
+            "version": "5.2.0", 
+            "mysql_versions": ">=5.5"
+        }, 
+        {
+            "date": "2022-02-11", 
+            "php_versions": ">=5.5,<8.0", 
+            "version": "4.9.10", 
+            "mysql_versions": ">=5.5"
+        }
+    ]
+}";s:9:"timestamp";i:1671577230;}}userconfig|a:2:{s:2:"db";a:2:{s:4:"lang";s:2:"fr";s:12:"Console/Mode";s:8:"collapse";}s:2:"ts";i:1671577303;}two_factor_check|b:1;git_location|N;is_git_revision|b:0;tmpval|a:15:{s:14:"favoriteTables";a:1:{i:1;a:0:{}}s:12:"recentTables";a:1:{i:1;a:1:{i:0;a:2:{s:2:"db";s:16:"db_gestproj-test";s:5:"table";s:9:"t_acheter";}}}s:5:"query";a:10:{s:32:"5794b9bd68f22800d74e69112eec9ae6";a:8:{s:3:"sql";s:73:"-- Database Section
+-- ________________ 
+
+create database db_framework";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";s:1:"0";s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"2cf285af31b208104af0484b4b4f630f";a:8:{s:3:"sql";s:16:"use db_framework";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"c86df88a1fa2c26304dbafa5aa16ee0c";a:8:{s:3:"sql";s:231:"-- Tables Section
+-- _____________ 
+
+create table t_user (
+     idUser int not null auto_increment,
+     nickname varchar(255) not null,
+     password varchar(255) not null,
+     constraint ID_t_user_ID primary key (idUser))";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"d1a973b9efbff9ad660c29b92b899505";a:8:{s:3:"sql";s:150:"-- Constraints Section
+-- ___________________ 
+
+
+-- Index Section
+-- _____________ 
+
+create unique index ID_t_user_IND
+     on t_user (idUser)";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"1cecd8942059f170049da7d778a1e0b0";a:8:{s:3:"sql";s:25:"SELECT * FROM `t_acheter`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";s:1:"0";s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"7ae546f0044b323859e86cd63e1ba630";a:8:{s:3:"sql";s:25:"SELECT * FROM `t_article`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";s:1:"0";s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"534870aa7dab112ff7acef6468aaf3ed";a:8:{s:3:"sql";s:25:"DROP DATABASE bdmushrooms";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";s:1:"0";s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"4101426708a2903c21f8a7105c1760b3";a:8:{s:3:"sql";s:32:"DROP DATABASE bdmushrooms -FORCE";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";s:1:"0";s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"067dfa990a479746baf1f837abf4e021";a:8:{s:3:"sql";s:31:"DROP DATABASE bdmushrooms FORCE";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";s:1:"0";s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"f74c70a4111f72cf68604068154b6b93";a:8:{s:3:"sql";s:31:"DROP DATABASE FORCE bdmushrooms";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";s:1:"0";s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}}s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;s:12:"display_blob";b:0;s:19:"hide_transformation";b:0;s:3:"pos";s:1:"0";s:8:"max_rows";i:25;s:12:"repeat_cells";i:100;s:18:"table_limit_offset";i:0;s:21:"table_limit_offset_db";s:11:"bdmushrooms";s:13:"table_uiprefs";a:1:{i:1;a:2:{s:16:"db_gestproj-test";a:1:{s:9:"t_acheter";a:0:{}}s:10:"db_redwire";a:1:{s:9:"t_article";a:0:{}}}}}ConfigFile1|a:2:{s:7:"Console";a:1:{s:4:"Mode";s:8:"collapse";}s:7:"Servers";a:1:{i:1;a:2:{s:7:"only_db";s:0:"";s:7:"hide_db";s:0:"";}}}debug|a:0:{}Import_message|a:2:{s:7:"message";s:805:"<div class="error"><h1>Erreur</h1><p><strong>Analyse statique :</strong></p><p>2 erreurs trouv√©es lors de l'analyse.</p><p><ol><li>Une expression √©tait attendue. (near "FORCE" at position 14)</li><li>Jeton inattendu. (near "bdmushrooms" at position 20)</li></ol></p><p><strong>Requ√™te SQL :</strong>  <a href="#" class="copyQueryBtn" data-text="DROP DATABASE FORCE bdmushrooms">Copier</a>
+    </p>
+<p>
+DROP DATABASE FORCE bdmushrooms
+</p>
+<p>
+    <strong>MySQL a r√©pondu : </strong><a href="./url.php?url=https%3A%2F%2Fdev.mysql.com%2Fdoc%2Frefman%2F5.7%2Fen%2Fserver-error-reference.html" target="mysql_doc"><img src="themes/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</p>
+<code>#1064 - Erreur de syntaxe pr√®s de 'FORCE bdmushrooms' √† la ligne 1</code><br></div>";s:11:"go_back_url";s:14:"server_sql.php";}is_multi_query|b:0;sql_history|a:2:{i:0;a:3:{s:2:"db";s:0:"";s:5:"table";s:0:"";s:8:"sqlquery";s:150:"-- Constraints Section
+-- ___________________ 
+
+
+-- Index Section
+-- _____________ 
+
+create unique index ID_t_user_IND
+     on t_user (idUser)";}i:1;a:3:{s:2:"db";s:16:"db_gestproj-test";s:5:"table";s:9:"t_acheter";s:8:"sqlquery";s:25:"SELECT * FROM `t_acheter`";}}errors|a:0:{}sql_from_query_box|b:1;
